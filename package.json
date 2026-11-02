@@ -1,0 +1,22 @@
+{
+  "name": "playwrightbasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runner1": "npx playwright test tests/example1.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4",
+    "allure-playwright": "^3.14.0",
+    "dotenv": "^18.0.8"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.3"
+  }
+}
